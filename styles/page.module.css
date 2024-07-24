@@ -1,0 +1,85 @@
+
+#banner{
+  color: aliceblue;
+  background-color: rgb(7, 55, 55);
+  width: 100%;
+  height: 500px;
+  border-radius: 0 0 32px 32px;
+}
+#logoText{
+  font-size: 72px;
+  position: absolute;
+  left: 280px;
+}
+#logoText2{
+  font-size: 72px;
+  position: absolute;
+  top: 120px;
+  left: 280px;
+}
+
+#formDiv{
+  box-sizing: border-box;
+  padding: 32px;
+  justify-content: center;
+  margin: 30px auto;
+  text-align: center;
+  height: 300px;
+  width: 92vw;
+  max-width: 600px;
+  border-radius: 32px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#formDiv input{
+  box-sizing: border-box;
+  padding-inline: 20px;
+  font-size: 24px;
+  border: 1px solid rgb(165, 165, 165);
+  border-radius: 32px;
+  margin: auto auto 30px auto;
+  width: 400px;
+  height: 52px;
+
+}
+#formDiv button{
+  transition: 200ms;
+  border-radius: 32px;
+  width: 300px;
+  height: 64px;
+  margin: 20px auto;
+  background-color: rgb(7, 55, 55);
+  color: aliceblue;
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+#formDiv button:hover{background-color: rgb(25, 81, 81);transition: 200ms;}
+#img1{
+  position: absolute;
+}
+#img2{
+  position: absolute;
+  right: 0;
+}
+
+@media (max-width:600px){
+  #logoText{
+    font-size: 44px;
+    position: absolute;
+    left: 240px;
+  }
+  #logoText2{
+    font-size: 40px;
+    top: 88px;
+    position: absolute;
+    left: 240px;
+  }
+  #banner{
+    color: aliceblue;
+    background-color: rgb(7, 55, 55);
+    width: 100%;
+    height: 280px;
+    border-radius: 0 0 32px 32px;
+  }
+}

@@ -1,0 +1,78 @@
+
+.homeHeader{
+  position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 72px;
+    background-color: rgb(7, 55, 55);
+  }
+.headerLinks{
+  justify-content: right;
+  display: flex;
+  color: aliceblue;
+}
+.link{
+  margin-right: 32px;
+  font-family: sans-serif;
+  font-size: 24px;
+  list-style: none;
+}
+#consultaText{
+  font-size: 48px;
+  font-family: sans-serif;
+  margin-top: 100px;
+  text-align: center;
+}
+#consultaDiv{
+  box-sizing: border-box;
+  padding: 20px;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  border-radius: 32px;
+  width:92vw;
+  height: fit-content;
+  background-color: rgb(240, 240, 240);
+}
+.consultaCard {
+  display: flex;
+  flex-wrap: wrap;
+
+  margin: 20px 20px 120px 20px;
+  background-color: rgb(153, 212, 212);
+  width: 40%;
+  height: 400px;
+  border-radius: 32px;
+}
+.cardImg{
+  width: 240px;
+}
+.areaSpan{
+  box-sizing: border-box;
+  padding-top: 4px;
+  border-radius: 48px;
+  margin: 10px auto;
+  text-align: center;
+  height: 40px;
+  font-size: 24px;
+  letter-spacing: 1px;
+  font-family: sans-serif;
+  background-color: rgb(32, 121, 121);
+  color: aliceblue;
+  justify-content: center;
+  width: 200px;
+}
+.buttonContact{
+  border-radius: 48px;
+  border: none;
+  background-color: rgb(32, 121, 121);
+  color: aliceblue;
+  margin: auto;
+  width: 200px;
+  height: 72px;
+  font-size: 20px;
+  font-weight: bold;
+
+}

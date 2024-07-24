@@ -1,0 +1,12 @@
+body{
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: aliceblue;
+}
+button{cursor: pointer;}
+
+form{
+  width: 100%;
+}
+li{text-decoration: none;}
